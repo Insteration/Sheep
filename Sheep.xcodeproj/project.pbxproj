@@ -16,6 +16,7 @@
 		285837AD22A9076600B383E0 /* SheepDolly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 285837AC22A9076600B383E0 /* SheepDolly.swift */; };
 		285837B122A9271C00B383E0 /* SheepModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 285837B022A9271C00B383E0 /* SheepModel.swift */; };
 		285837B322A9290800B383E0 /* SheepModelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 285837B222A9290700B383E0 /* SheepModelView.swift */; };
+		285837B522A92FCE00B383E0 /* SheepData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 285837B422A92FCE00B383E0 /* SheepData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		285837AC22A9076600B383E0 /* SheepDolly.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SheepDolly.swift; sourceTree = "<group>"; };
 		285837B022A9271C00B383E0 /* SheepModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheepModel.swift; sourceTree = "<group>"; };
 		285837B222A9290700B383E0 /* SheepModelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheepModelView.swift; sourceTree = "<group>"; };
+		285837B422A92FCE00B383E0 /* SheepData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheepData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +69,7 @@
 				2858379822A901D000B383E0 /* MainView.swift */,
 				285837B222A9290700B383E0 /* SheepModelView.swift */,
 				285837B022A9271C00B383E0 /* SheepModel.swift */,
+				285837B422A92FCE00B383E0 /* SheepData.swift */,
 				2858379A22A901D800B383E0 /* Assets.xcassets */,
 				2858379F22A901D800B383E0 /* LaunchScreen.storyboard */,
 				285837A222A901D800B383E0 /* Info.plist */,
@@ -159,6 +162,7 @@
 				2858379722A901D000B383E0 /* SceneDelegate.swift in Sources */,
 				2858379922A901D000B383E0 /* MainView.swift in Sources */,
 				285837B322A9290800B383E0 /* SheepModelView.swift in Sources */,
+				285837B522A92FCE00B383E0 /* SheepData.swift in Sources */,
 				285837AD22A9076600B383E0 /* SheepDolly.swift in Sources */,
 				285837B122A9271C00B383E0 /* SheepModel.swift in Sources */,
 			);
