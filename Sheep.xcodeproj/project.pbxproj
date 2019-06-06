@@ -9,21 +9,27 @@
 /* Begin PBXBuildFile section */
 		2858379522A901D000B383E0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2858379422A901D000B383E0 /* AppDelegate.swift */; };
 		2858379722A901D000B383E0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2858379622A901D000B383E0 /* SceneDelegate.swift */; };
-		2858379922A901D000B383E0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2858379822A901D000B383E0 /* ContentView.swift */; };
+		2858379922A901D000B383E0 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2858379822A901D000B383E0 /* MainView.swift */; };
 		2858379B22A901D800B383E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2858379A22A901D800B383E0 /* Assets.xcassets */; };
 		2858379E22A901D800B383E0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2858379D22A901D800B383E0 /* Preview Assets.xcassets */; };
 		285837A122A901D800B383E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2858379F22A901D800B383E0 /* LaunchScreen.storyboard */; };
+		285837AD22A9076600B383E0 /* SheepDolly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 285837AC22A9076600B383E0 /* SheepDolly.swift */; };
+		285837B122A9271C00B383E0 /* SheepModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 285837B022A9271C00B383E0 /* SheepModel.swift */; };
+		285837B322A9290800B383E0 /* SheepModelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 285837B222A9290700B383E0 /* SheepModelView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2858379122A901D000B383E0 /* Sheep.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sheep.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2858379422A901D000B383E0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2858379622A901D000B383E0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		2858379822A901D000B383E0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2858379822A901D000B383E0 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		2858379A22A901D800B383E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2858379D22A901D800B383E0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		285837A022A901D800B383E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		285837A222A901D800B383E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		285837AC22A9076600B383E0 /* SheepDolly.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SheepDolly.swift; sourceTree = "<group>"; };
+		285837B022A9271C00B383E0 /* SheepModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheepModel.swift; sourceTree = "<group>"; };
+		285837B222A9290700B383E0 /* SheepModelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheepModelView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,10 +64,13 @@
 			children = (
 				2858379422A901D000B383E0 /* AppDelegate.swift */,
 				2858379622A901D000B383E0 /* SceneDelegate.swift */,
-				2858379822A901D000B383E0 /* ContentView.swift */,
+				2858379822A901D000B383E0 /* MainView.swift */,
+				285837B222A9290700B383E0 /* SheepModelView.swift */,
+				285837B022A9271C00B383E0 /* SheepModel.swift */,
 				2858379A22A901D800B383E0 /* Assets.xcassets */,
 				2858379F22A901D800B383E0 /* LaunchScreen.storyboard */,
 				285837A222A901D800B383E0 /* Info.plist */,
+				285837AC22A9076600B383E0 /* SheepDolly.swift */,
 				2858379C22A901D800B383E0 /* Preview Content */,
 			);
 			path = Sheep;
@@ -148,7 +157,10 @@
 			files = (
 				2858379522A901D000B383E0 /* AppDelegate.swift in Sources */,
 				2858379722A901D000B383E0 /* SceneDelegate.swift in Sources */,
-				2858379922A901D000B383E0 /* ContentView.swift in Sources */,
+				2858379922A901D000B383E0 /* MainView.swift in Sources */,
+				285837B322A9290800B383E0 /* SheepModelView.swift in Sources */,
+				285837AD22A9076600B383E0 /* SheepDolly.swift in Sources */,
+				285837B122A9271C00B383E0 /* SheepModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
