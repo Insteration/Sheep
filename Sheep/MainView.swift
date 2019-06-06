@@ -14,7 +14,9 @@ struct MainView : View {
         NavigationView {
             
             List(dataSheep) { sheep in
-                SheepModelView(sheepModel: sheep)
+                NavigationButton(destination: SheepModelView(sheepModel: sheep)) {
+                    SheepModelView(sheepModel: sheep)
+                }
             }
                 .navigationBarTitle(Text("Sheepgram"))
         }
